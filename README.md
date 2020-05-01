@@ -1,2 +1,2 @@
 # image-resizer
-Image manipulation engine using gimp to bulk resize images 
+Image manipulation engine using jimp to bulk resize images 
