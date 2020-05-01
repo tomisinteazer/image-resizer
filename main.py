@@ -1,10 +1,11 @@
 def main():
-  print('the python is alive')
+  print('the python writer is alive')
   file = open('new.txt', 'a+')
-  print('file opened enter new text')
+  print('file opened enter text')
   new = input()
-  file.write(new)
+  edited = new + \n
+  file.write(edited)
   file.close()
-  print('file written success')
+  print('file updated successfully')
 
 main()
