@@ -3,7 +3,7 @@ def main():
   file = open('new.txt', 'a+')
   print('file opened enter text')
   new = input()
-  edited = new + \n
+  edited = new +'\n'
   file.write(edited)
   file.close()
   print('file updated successfully')
