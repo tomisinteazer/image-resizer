@@ -11,7 +11,7 @@ def main():
   
   
   #the prime number generator
-  num = 7
+  num = int(input ())
   def prime(num):
     isprime=False
     for i in range(2,num):
