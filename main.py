@@ -16,9 +16,9 @@ def main():
   def prime(num):
     isprime=False
     for i in range(2,num):
-      if i == 2:
-        isprime=True
-        break
+      #if i == 2:
+        #isprime=True
+       # break
       elif num%i!=0:
         isprime = True
       else:
@@ -31,3 +31,4 @@ def main():
     prime(i)
   #end of prime number
 
+main()
