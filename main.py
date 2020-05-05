@@ -15,14 +15,15 @@ def main():
   ranger= int(input ('enter the number ='))
   def prime(num):
     isprime=False
-    for i in range(2,num):
-      if num%i!=0:
-        isprime = True
-      elif i == 2:
-        isprime = True
-      else:
-        isprime = False
-        break 
+    if num==2:
+      isprime= True;
+    else:
+      for i in range(2,num):
+          if num%i!=0:
+            isprime = True
+          else:
+            isprime = False
+            break 
     if isprime:
       print(num)
   
