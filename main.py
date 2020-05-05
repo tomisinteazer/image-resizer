@@ -11,7 +11,8 @@ def main():
   
   
   #the prime number generator
-  num = int(input ())
+  norm = input()
+  numb = int(norm)
   def prime(num):
     isprime=False
     for i in range(2,num):
@@ -23,6 +24,6 @@ def main():
     print(isprime)
         # TODO: write code...
       # TODO: write code...
-  prime(num)
+  prime(numb)
 
 main()
