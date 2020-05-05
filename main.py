@@ -16,7 +16,7 @@ def main():
   def prime(num):
     isprime=False
     for i in range(2,num):
-      elif num%i!=0:
+      if num%i!=0:
         isprime = True
       else:
         isprime = False
