@@ -15,7 +15,7 @@ def main():
   ranger= int(input ('enter the number ='))
   def prime(num):
     isprime=False
-    for i in range(2,num):
+    for i in range(1,num):
       if num%i!=0:
         isprime = True
       else:
@@ -26,6 +26,5 @@ def main():
   
   for i in range(0,ranger):
     prime(i)
-  
+  #end of prime number
 
-main()
