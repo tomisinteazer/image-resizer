@@ -10,7 +10,7 @@ def main():
   
   
   #the prime number generator
-  num = raw_input()
+  num = 7
   def prime(arg):
     for i in range(0,arg):
       if arg%i!=0:
