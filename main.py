@@ -14,7 +14,7 @@ def main():
   num = 7
   def prime(num):
     isprime=False
-    for i in range(0,num):
+    for i in range(2,num):
       if num%i!=0:
         isprime = True
       else:
