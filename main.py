@@ -18,11 +18,11 @@ def main():
     for i in range(2,num):
       if num%i!=0:
         isprime = True
+      elif i == 2:
+        isprime = True
       else:
         isprime = False
         break 
-    if i == 2:
-       isprime=True
     if isprime:
       print(num)
   
