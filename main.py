@@ -10,13 +10,13 @@ def main():
   
   
   #the prime number generator
-  
+  num = raw_input()
   def prime(arg):
     for i in range(0,arg):
       if arg%i!=0:
         print('it is prime')
         # TODO: write code...
       # TODO: write code...
-  prime(7)
+  prime(num)
 
 main()
