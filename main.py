@@ -12,7 +12,7 @@ def main():
   
   #the prime number generator
   
-  numb = int(input ('enter the number ='))
+  ranger= int(input ('enter the number ='))
   def prime(num):
     isprime=False
     for i in range(2,num):
@@ -23,8 +23,9 @@ def main():
         break 
     if isprime:
       print(num)
-        # TODO: write code...
-      # TODO: write code...
-  prime(numb)
+  
+  for i in range(0,ranger):
+    prime(i)
+  
 
 main()
