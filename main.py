@@ -18,7 +18,7 @@ def main():
     for i in range(2,num):
       if i == 2:
         isprime=True
-       break
+        break
       elif num%i!=0:
         isprime = True
       else:
