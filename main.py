@@ -23,8 +23,6 @@ def main():
         break 
     if isprime:
       print(num)
-    else:
-      break
         # TODO: write code...
       # TODO: write code...
   prime(numb)
