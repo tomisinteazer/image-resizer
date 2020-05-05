@@ -17,5 +17,6 @@ def main():
         print('it is prime')
         # TODO: write code...
       # TODO: write code...
+  prime(7)
 
 main()
