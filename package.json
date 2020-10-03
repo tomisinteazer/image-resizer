@@ -2,9 +2,10 @@
   "name": "imageprocessor",
   "version": "1.0.0",
   "description": "",
-  "main": "compress.js",
+  "main": "resize.js",
   "scripts": {
-    "test": "compress"
+    "test": "resize",
+    "run": "node resize.js"
   },
   "author": "",
   "license": "ISC",
