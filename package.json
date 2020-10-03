@@ -1,0 +1,14 @@
+{
+  "name": "imageprocessor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "compress.js",
+  "scripts": {
+    "test": "compress"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jimp": "^0.9.3"
+  }
+}
