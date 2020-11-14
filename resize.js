@@ -5,8 +5,8 @@ let images = [];
 for (file of files) {
   images.push(file);
 }
+
 let batch = images.map((e) => `input/${e}`);
-batch.shift();
 let jimps = [];
 for (e of batch) {
   jimps.push(jimp.read(e));

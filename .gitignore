@@ -24,7 +24,7 @@ coverage
 
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
-
+job/
 # Bower dependency directory (https://bower.io/)
 bower_components
 
@@ -41,7 +41,7 @@ input/
 output/
 # TypeScript v1 declaration files
 typings/
-
+compose/
 # Optional npm cache directory
 .npm
 

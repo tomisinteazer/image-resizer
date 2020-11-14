@@ -4,8 +4,10 @@
   "description": "",
   "main": "resize.js",
   "scripts": {
-    "test": "resize",
-    "run": "node resize.js"
+    "test": "echo Built by tomisinteazer",
+    "run": "node resize.js",
+    "create": "mkdir input output compose",
+    "frame":"node composite"
   },
   "author": "",
   "license": "ISC",
